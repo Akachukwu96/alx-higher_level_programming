@@ -1,2 +1,2 @@
-#!/usr/bin/python3
-SHOW DATABASES
+-- Lists all databases of my MySQL server.
+SHOW DATABASES;
