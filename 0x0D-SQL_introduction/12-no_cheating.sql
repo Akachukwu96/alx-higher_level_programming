@@ -2,3 +2,7 @@
 UPDATE `second_table`
 SET `score` = 10
 WHERE `name` = "Bob";
+
+or
+
+UPDATE `second_table` SET score=10 WHERE name='Bob';
