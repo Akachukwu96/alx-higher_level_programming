@@ -1,8 +1,5 @@
 #!/usr/bin/node
-/*
-   A JS Script that prints the elements of an array in a single line.
-*/
-const multiLang = ['c is fun', 'Python is cool', 'JavaSript is amazing'];
-for (const item of multiLang) {
-  console.log(item);
+const multiLang = ['C is fun', 'Python is cool', 'JavaScript is amazing'];
+for (let i = 0; i < multiLang.length; i++) {
+  console.log(multiLang[i]);
 }
